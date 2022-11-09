@@ -10,71 +10,62 @@
 	</body>
 </html>
 <html>
-			<td>姓名：</td>
-			<td><input type="text" placeholder="请输入你的姓名......"></td>
-		<br>
-		<br>
-			<td>年龄：</td>
-			<td><input type="text" placeholder="请输入你的年龄......"></td>
+<table border="1">
+    <tr>
+        <th colspan="2">信息统计表</th>
+       
+    </tr>
+    <tr>
+        <td>姓名：</td>
+        <td><input type="text"/></td>
+    </tr>
+    <tr>
+        <td>年龄：</td>
+        <td><input type="text"/></td>
+    </tr>
+	<tr>
+	    <td>性别：</td>
+	    <td><input name="sex" type="radio" checked/>男
+		<input name="sex" type="radio"/>女
+		</td>
+	</tr>
+	<tr>
+	    <td>爱好：</td>
+    <td><input type="checkbox" value="sleep" name="hobby"/>登山
 	<br>
+	<input type="checkbox"  name="hobby"/>旅游
 	<br>
-			<td>性别：</td>
-			<td>
-				<input name="sex" type="radio" /><img src="1.jpg" >男士
-				<input name="sex" type="radio" />女士
-			</td>
+	<input type="checkbox"  name="hobby"/>健身
 	<br>
+	<input type="checkbox" name="hobby" />上网
 	<br>
-			<td>生日：</td>
-			<td><select>
-					<option value="">--请选择年份--</option>
-					<option value="1">2002年</option>
-					<option value="2">2003年</option>
-					<option value="3">2004年</option>
-					<option value="4">2005年</option>
-				</select></td>
-				<td><select>
-						<option value="">--请选择月份--</option>
-						<option value="1">1月</option>
-						<option value="2">2月</option>
-						<option value="3">3月</option>
-						<option value="4">4月</option>
-					</select></td>
-					<td><select>
-							<option value="">--请选择日--</option>
-							<option value="1">1</option>
-							<option value="2">2</option>
-							<option value="3">3</option>
-							<option value="4">4</option>
-						</select></td>
-				<br>
-				<br>
-				<td>爱好：</td>
-						<td>
-							<input type="checkbox" value="sleep" name="hobby" />阅读
-							
-							<input type="checkbox" name="hobby" />跑步
-							
-							<input type="checkbox" name="hobby" />游泳
-							
-							<input type="checkbox" name="hobby" />阅读
-						</td>
-	<br>
-	<br>
-			<td>个人介绍:</td>
-			<br>
-			<br>
-			<td><textarea cols="40" rows="5"placeholder="请输入你的个人介绍......"></textarea></td>
-			<br>
-			<br>
-		<td></td>
-		<input type="checkbox" value="sleep" name="hobby"checked  />我同意信息录入
-		<br>
-		<br>
-		<td><input type="submit" value="立即注册">
-			<input type="reset" value="重新输入">
-			</td>
-	</table>
+	<input type="checkbox"  name="hobby" />游泳
+	
 
-	</body>
+</td>
+	</tr>
+	<tr>
+	    <td>学历：</td>
+	    <td><select>
+    <option>--请选择--</option>
+	<option>--专科--</option>
+	<option>--本科--</option>
+	<option>--研究生--</option>
+	<option>--博士--</option>
+	<option>--博士后--</option>
+</select></td>
+	</tr>
+	<tr>
+	    <td>自我介绍:</td>
+	    <td><textarea   cols="20" rows="5" >自我介绍：</textarea></td>
+	</tr>
+ 
+	    <td></td>
+	    <td><button>提交</button>&nbsp&nbsp<button>重置</button></td>
+	</tr>
+	<tr>
+
+	
+</table>
+		</body>
 </html>
